@@ -1,0 +1,86 @@
+.user-form {
+    max-width: 360px;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    margin: 0px auto;
+  }
+  
+  /* .user-profile_picture-input {
+    height: 60px !important;
+    width: 60px !important;
+    background-image: url("./images/profile.svg");
+    background-size: 32px 32px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.158) !important;
+    cursor: pointer;
+  } */
+
+  .profile-pic{
+    opacity: 0;
+    height: 0.1px;
+    width: 0.1px;
+  }
+  .profile-input-label{
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius : 50%;
+    overflow: hidden;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.158) !important;
+  }
+  #preview{
+    height: 60px;
+    width: 60px;
+   
+  }
+  
+  .user-details-input {
+    width: 65%;
+  }
+  .user-input {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    border: 0px;
+    border-bottom: 1px solid #8d8f9265;
+    color: #171717;
+  }
+  .user-input:focus {
+    outline: none;
+  }
+  .user-form-submit {
+    -webkit-tap-highlight-color: transparent;
+    margin-top: 30px;
+    height: 40px;
+    min-width: 175px;
+    font-size: 1.2rem;
+    border: 0px;
+    background-color: #1ebf63;
+    color: white;
+    border-radius: 0px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-out;
+  }
+  .user-form-submit:hover,
+  .user-form-submit:focus {
+    outline: none;
+    background-color: #16924c;
+    transition: background-color 0.3s ease-out;
+  }
+  
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  /* Firefox */
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+  
